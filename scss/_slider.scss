@@ -1,0 +1,17 @@
+.qq-slider{
+  width: 100%;
+  overflow: hidden;
+  .qq-slider-item{
+    > a {
+      display: block;
+      img {
+        width: 100%;
+        display: block;
+      }
+    }
+  }
+  .qq-slider-wrap{
+    width: 500%;
+    display: flex
+  }
+}
